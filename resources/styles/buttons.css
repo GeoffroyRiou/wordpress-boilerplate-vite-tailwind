@@ -1,0 +1,94 @@
+.g-button, .wpcf7-submit{
+    @apply
+    inline-flex
+    gap-2
+    items-center
+    justify-center
+    px-5
+    py-1
+    bg-primary
+    border
+    border-primary
+    text-white
+    font-title
+    uppercase
+    text-xl
+    transition-colors
+    tracking-wider
+    no-underline!;
+
+    &:hover,
+    &.is-line:hover,
+    &.is-line-dark:hover{
+        @apply
+        border-secondary
+        bg-white
+        text-secondary;
+
+        > .icon{
+            @apply
+            scale-130;
+        }
+    }
+
+    &.is-bigger{
+        @apply
+        md:tracking-normal
+        md:text-4xl;
+    }
+
+    &.is-line,
+    &.is-line-dark{
+        @apply
+        border-2
+        bg-transparent;
+    }
+
+    &.is-line{
+        @apply
+        border-white;
+    }
+
+    &.is-line-dark{
+        @apply
+        text-secondary
+        border-secondary;
+
+        &:hover{
+            @apply
+            bg-secondary
+            text-white;
+        }
+    }
+
+    > .icon{
+        @apply
+        size-5
+        transition-transform;
+    }
+
+    > .text{
+        @apply
+        pt-1;
+    }
+}
+
+.g-button-icon{
+
+    > .content{
+        @apply
+        transition-colors;
+
+        &:hover{
+            @apply
+            text-secondary
+            border-primary
+            bg-primary;
+        }
+
+        > .icon{
+            @apply
+            transition-colors;
+        }
+    }
+}

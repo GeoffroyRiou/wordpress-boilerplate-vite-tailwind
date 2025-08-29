@@ -1,0 +1,506 @@
+/**
+    Global styles
+**/
+
+body{
+    @apply
+    m-0
+    p-0
+    bg-fixed
+    bg-cover
+    font-text
+    bg-gray-100
+    text-secondary;
+}
+
+body :where(.editor-styles-wrapper){
+    @apply
+    font-text!;
+}
+
+a:not([class ^= "g-button"]){
+    @apply
+    no-underline
+    transition-colors;
+
+    &:hover{
+        @apply
+        text-primary;
+    }
+}
+
+/**
+    Container
+**/
+
+.g-container{
+    @apply
+    w-full
+    max-w-325
+    px-5
+    mx-auto;
+
+    @apply
+    lg:px-0;
+
+    &.is-small{
+        @apply
+        max-w-210;
+    }
+}
+
+/**
+    Header
+**/
+
+.g-header{
+    @apply
+    relative
+    z-20
+    flex
+    justify-between
+    py-5
+    h-[var(--header-height-mobile)]
+    bg-secondary
+    text-white;
+
+    @apply
+    xl:h-[var(--header-height-desktop)];
+
+    > .inner{
+        @apply
+        flex
+        gap-10
+        justify-between;
+
+        @apply
+        xl:gap-16
+        xl:items-center;
+    }
+
+    > .inner > .logo{
+        @apply
+        w-40;
+
+        @apply
+        xl:w-3xs;
+    }
+}
+
+.g-header__burger{
+
+    @apply
+    xl:hidden;
+
+    > svg{
+        @apply
+        size-10;
+    }
+}
+
+.g-header__nav{
+    @apply
+    hidden
+    fixed
+    top-[var(--header-height-mobile)]
+    h-[calc(100%-var(--header-height-mobile))]
+    left-0
+    right-0
+    bg-secondary
+    overflow-auto;
+
+    @apply
+    xl:static
+    xl:block
+    xl:w-full
+    xl:h-auto
+    xl:overflow-visible;
+
+    &.-open{
+        @apply
+        block;
+    }
+
+    > .content{
+        @apply
+        flex
+        flex-col
+        gap-5
+        p-5;
+
+        @apply
+        xl:flex-row
+        xl:w-full 
+        xl:items-center
+        xl:justify-end
+        xl:p-0;
+    }
+}
+
+.g-header__menu{
+    @apply
+    flex
+    flex-col
+    gap-2;
+
+    @apply
+    xl:flex-row
+    xl:gap-8
+    xl:ml-0
+    xl:mr-auto;
+
+
+    .menu-item{
+        @apply
+        font-bold
+        border-b
+        border-white/20
+        pb-2;
+
+        @apply
+        xl:border-0
+        xl:pb-0;
+
+        a{
+            @apply
+            cursor-pointer;
+        }
+    }
+
+    .menu-item-has-children{
+        @apply
+        relative
+        flex
+        flex-col
+        gap-2;
+
+        @apply
+        xl:block;
+
+        &.-active{
+            > a::after {
+                @apply
+                rotate-180;
+            }
+
+            > .sub-menu {
+                @apply
+                flex;
+            }
+        }
+
+        > a{
+            @apply
+            flex
+            items-center
+            justify-between
+            gap-3;
+
+            &::after{
+                content: '';
+                background-size: 100%;
+
+                @apply
+                w-2.5
+                h-1.5
+                bg-center
+                bg-[image:url('../../images/arrow-bottom.svg')];
+            }
+        }
+
+        > .sub-menu{
+            @apply
+            hidden
+            flex-col 
+            gap-2
+            text-sm;
+
+            @apply
+            xl:absolute
+            xl:top-[calc(100%+1em)]
+            xl:left-0
+            xl:gap-3
+            xl:py-2
+            xl:px-5
+            xl:bg-white
+            xl:rounded-lg
+            xl:text-secondary
+            xl:shadow;
+
+            .menu-item{
+                @apply
+                ml-5
+                border-b-0;
+
+                @apply
+                xl:ml-0;
+            }
+        }
+    }
+}
+
+.g-header__entreprises{
+    @apply
+    font-bold;
+
+    @apply
+    xl:border-l-2
+    xl:border-white
+    xl:pl-4;
+}
+
+.g-header__icons{
+    @apply
+    flex
+    gap-3;
+}
+
+/**
+    Footer
+**/
+
+.g-footer{
+    @apply
+    flex 
+    flex-col
+    gap-10
+    py-10
+    bg-secondary
+    text-white;
+
+    @apply
+    md:gap-16
+    md:py-16;
+
+    > .top,
+    > .bottom{
+        @apply
+        flex 
+        flex-col
+        gap-10;
+
+        @apply
+        md:flex-row;
+    }
+
+    > .top{
+        @apply
+        md:justify-between
+        md:items-center;
+    }
+
+    > .bottom{
+        @apply
+        md:justify-between
+        md:items-end;
+    }
+}
+
+.g-footer__infos > .inner,
+.g-footer__right{
+    @apply
+    flex
+    flex-col
+    gap-3;
+}
+
+.g-footer__infos{
+    @apply
+    flex
+    justify-center;
+}
+
+.g-footer__center{
+    @apply
+    flex
+    flex-col
+    gap-5
+    items-center;
+
+    @apply
+    md:gap-10;
+}
+
+.g-footer__center__school{
+    @apply
+    flex
+    gap-3
+    items-center
+    italic
+    text-[0.70em];
+}
+
+.g-footer__right{
+    @apply
+    gap-5
+    items-center;
+
+    > .button{
+        @apply
+        md:w-full;
+    }
+}
+
+.g-footer__icons{
+    @apply
+    flex
+    gap-3;
+}
+
+.g-footer__menu{
+    @apply
+    flex
+    flex-col
+    gap-2
+    text-center
+    text-sm;
+
+    @apply
+    md:flex-row
+    md:flex-wrap
+    md:gap-3;
+
+    a{
+        @apply
+        underline
+        underline-offset-4;
+    }
+}
+
+/**
+    Info pratiques
+**/
+
+.g-info-pratique{
+
+    @apply
+    flex
+    items-center
+    gap-3
+    text-xs;
+
+    > .text{
+        @apply
+        pl-3
+        border-l;
+    }
+}
+
+/**
+    Icons
+**/
+
+.g-circle-icon{
+    @apply
+    inline-flex
+    items-center
+    justify-center
+    size-8
+    rounded-full
+    border
+    border-[currentColor];
+
+    > .icon{
+        @apply
+        size-4;
+    }
+}
+
+/**
+    Sections
+**/
+
+.g-section-title{
+    @apply
+    font-title
+    uppercase
+    text-3xl
+    italic
+    font-bold;
+
+    @apply
+    md:text-4xl;
+
+    @apply
+    lg:text-5xl;
+
+    &.is-centered{
+        @apply
+        text-center;
+
+        &::after{
+            @apply
+            mx-auto;
+        }
+    }
+
+    &::after{
+        content: '';
+
+        @apply
+        block
+        w-28
+        h-1.5
+        bg-secondary;
+
+        @apply
+        md:mt-2;
+        
+    }
+}
+
+/**
+    Contact page
+**/
+
+.contact-page{
+    @apply
+    py-5;
+
+    > .inner{
+        @apply
+        flex
+        flex-col
+        gap-5;
+
+        @apply
+        md:grid
+        md:grid-cols-3;
+    }
+}
+
+.contact-page__content,
+.contact-page__sidebar{
+
+    @apply
+    bg-white
+    rounded-lg
+    border
+    border-secondary/30;
+
+}
+
+.contact-page__content{
+    @apply
+    md:col-span-2;
+}
+
+.contact-page__sidebar{
+    @apply
+    flex
+    flex-col
+    gap-5
+    p-5
+    max-w-[420px]
+    mx-auto;
+
+    @apply
+    lg:p-8
+    lg:gap-8;
+
+    > .stamp{
+        @apply
+        rounded-4xl;
+    }
+
+}

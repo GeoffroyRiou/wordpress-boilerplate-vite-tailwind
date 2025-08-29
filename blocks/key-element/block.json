@@ -1,0 +1,12 @@
+{
+ 	"name": "ejn/key-element",
+	"title": "[BP] Élément clé",
+	"description": "Bloc d'élément clé",
+    "category": "EJN",
+	"keywords": ["ejn", "élément", "clé"],
+	"icon": "admin-network",
+	"acf": {
+    	"mode": "preview",
+    	"renderTemplate": "template.php"
+	}
+}

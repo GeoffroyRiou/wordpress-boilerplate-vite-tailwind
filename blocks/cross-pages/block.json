@@ -1,0 +1,12 @@
+{
+ 	"name": "ejn/cross-pages",
+	"title": "[BP] Pages croisées",
+	"description": "Bloc de pages croisées avec texte, image et bouton",
+    "category": "EJN",   
+	"keywords": ["ejn", "page"],
+	"icon": "screenoptions",
+	"acf": {
+    	"mode": "preview",
+    	"renderTemplate": "template.php"
+	}
+}

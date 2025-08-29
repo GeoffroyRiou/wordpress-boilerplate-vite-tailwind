@@ -1,0 +1,12 @@
+{
+ 	"name": "ejn/testimony",
+	"title": "[BP] Témoignage",
+	"description": "Bloc de témoignage",
+    "category": "EJN",
+	"keywords": ["ejn", "témoignage"],
+	"icon": "format-chat",
+	"acf": {
+    	"mode": "preview",
+    	"renderTemplate": "template.php"
+	}
+}

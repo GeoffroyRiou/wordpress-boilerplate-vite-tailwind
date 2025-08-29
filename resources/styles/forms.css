@@ -1,0 +1,86 @@
+.wpcf7{
+
+    label{
+        @apply
+        text-sm
+        font-semibold;
+    }
+
+    input:not(.wpcf7-submit):not([type="checkbox"]), textarea, select{
+        @apply
+        mt-1
+        px-2
+        py-2
+        w-full
+        rounded
+        border
+        font-light
+        border-gray-300
+        bg-white;
+
+        &:focus{
+            @apply
+            outline-primary;
+        }
+    }
+
+    .wpcf7-not-valid-tip{
+        @apply
+        mt-1
+        text-xs
+        text-primary;
+    }
+
+    small{
+        @apply
+        block
+        italic
+        text-center;
+    }
+
+    .wpcf7-list-item label{
+        @apply
+        flex
+        gap-3
+        italic
+        font-normal
+        text-xs;
+    }
+
+    .wpcf7-response-output{
+        @apply
+        bg-primary
+        text-white
+        border-0!
+        text-center
+        rounded
+        py-3!;
+    }
+}
+
+.wpcf7-footer{
+    
+    p{
+        @apply
+        flex
+        gap-2
+        justify-center
+        items-center;
+    }
+
+    .wpcf7-submit{
+        @apply
+        cursor-pointer
+        w-[300px];
+
+        @apply
+        md:tracking-normal
+        md:text-4xl;
+    }
+
+    .wpcf7-spinner{
+        @apply
+        bg-primary
+        m-0;
+    }
+}

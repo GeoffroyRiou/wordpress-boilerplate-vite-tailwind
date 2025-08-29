@@ -1,0 +1,12 @@
+{
+ 	"name": "ejn/hero",
+	"title": "[BP] Hero",
+	"description": "Bloc Hero avec texte, image et bouton",
+    "category": "EJN",   
+	"keywords": ["ejn", "hero", "banniere"],
+	"icon": "cover-image",
+	"acf": {
+    	"mode": "preview",
+    	"renderTemplate": "template.php"
+	}
+}

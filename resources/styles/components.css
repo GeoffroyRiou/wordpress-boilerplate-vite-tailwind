@@ -1,0 +1,362 @@
+/**
+    News card
+**/
+
+.g-news-card{
+    @apply
+    relative
+    flex
+    flex-col
+    gap-3
+    p-8
+    rounded-xl
+    bg-white/90;
+
+    &.has-shadow{
+        @apply
+        shadow-md;
+    }
+
+    > .title{
+        @apply
+        m-0
+        mt-1
+        font-title
+        font-extrabold
+        text-xl;
+    }
+
+    > .text{
+        @apply
+        text-xs
+        italic;
+    }
+
+    > .cardbutton{
+        @apply
+        mt-auto
+        mb-0;
+    }
+}
+
+.g-news-card__types{
+    @apply
+    absolute
+    top-10
+    left-10
+    flex
+    flex-wrap
+    gap-1;
+
+    > .type{
+        @apply
+        px-2
+        py-1
+        text-xs
+        font-bold
+        tracking-wider
+        bg-primary
+        text-white;
+    }
+
+
+}
+
+.g-news-card__illustration > .illustration{
+    @apply
+    w-full;
+}
+
+/**
+    Filtered list
+**/
+
+.list-search-form{
+
+    &.-hidden{
+        @apply
+        hidden;
+    }
+
+    > .filters{
+        @apply
+        flex
+        flex-col
+        gap-2;
+
+        @apply
+        md:flex-row
+        md:justify-center;
+    }
+}
+
+.list-head-filters{
+    @apply
+    flex
+    gap-2
+    items-center;
+
+    > .icon{
+        @apply
+        size-5;
+    }
+
+    > .text{
+        @apply
+        font-bold;
+    }
+}
+
+.list-content-filters{
+    @apply
+    flex
+    flex-wrap
+    gap-2
+    items-center;
+
+    > .reset{
+        @apply
+        underline
+        italic
+        transition-colors;
+
+        &:hover{
+            @apply
+            cursor-pointer
+            text-primary;
+        }
+    }
+}
+
+.list-filter{
+
+    > .choice{
+        @apply
+        hidden;
+
+        &:checked + .label{
+            @apply
+            bg-primary
+            text-white;
+        }
+    }
+
+    > .label{
+        @apply
+        px-3
+        py-1
+        bg-white
+        rounded
+        text-sm
+        font-bold
+        text-primary
+        transition-colors;
+
+        &:hover{
+            @apply
+            cursor-pointer
+            bg-primary/10;
+        }
+    }
+}
+
+.list-form-results{
+    @apply
+    flex
+    flex-col
+    gap-5;
+
+    @apply
+    xs:justify-center
+    xs:flex-row
+    xs:flex-wrap;
+
+    &.is-simple{
+        > div, > article{
+            @apply
+            md:max-w-[var(--xs-news-max-w)]
+            md:flex-[var(--xs-news-max-w)];
+        }
+    }
+
+    > div, > article{
+        @apply
+        xs:max-w-[var(--xs-news-max-w)]
+        xs:flex-[var(--xs-news-max-w)];
+
+        @apply
+        md:max-w-[var(--md-news-max-w)]
+        md:flex-[var(--md-news-max-w)];
+    }
+}
+
+.list-load-more{
+    @apply
+    md:w-fit
+    md:mx-auto;
+
+    &.-hidden{
+        @apply
+        hidden;
+    }
+}
+
+/**
+    Page head
+**/
+
+.g-page-head{
+    @apply
+    relative
+    py-8
+    bg-primary
+    text-white
+    text-shadow-lg
+    text-shadow-primary
+    overflow-hidden;
+
+    @apply
+    md:py-14;
+
+    > .content{
+        @apply
+        relative
+        z-10
+        mx-auto
+        text-center;
+    }
+
+    > .content > .title{
+        @apply
+        font-title
+        uppercase
+        font-bold
+        text-4xl
+        max-w-[800px]
+        m-0
+        mx-auto;
+
+        @apply
+        md:mb-2
+        md:text-5xl;
+
+        @apply
+        lg:text-6xl;
+    }
+
+    > .pattern1,
+    > .pattern2{
+        @apply
+        w-6/12
+        max-w-[540px]
+        absolute;
+
+        @apply
+        lg:w-5/12;
+
+        @apply
+        2xl:w-5/12;
+    }
+
+    > .pattern1{
+        @apply
+        bottom-0
+        left-0;
+    }
+
+    > .pattern2{
+        @apply
+        top-0
+        right-0;
+    }
+}
+
+/**
+    Fil d'ariane
+**/
+
+.g-breadcrumbs{
+    @apply
+    hidden;
+
+    @apply
+    md:block
+    md:text-sm;
+
+    > span{
+        @apply
+        flex 
+        flex-wrap
+        gap-2
+        justify-center;
+    }
+
+    a{
+        @apply
+        font-light;
+
+        &:hover{
+            @apply
+            text-secondary;
+        }
+    }
+
+    .breadcrumb_last{
+        @apply
+        font-medium;
+    }
+}
+
+/**
+    Member
+**/
+
+.member-card{
+    @apply
+    flex
+    flex-col
+    gap-5
+    p-5
+    rounded-lg
+    bg-white;
+
+    @apply
+    md:p-10;
+
+    p{
+        @apply
+        m-0
+        p-0;
+    }
+
+    > .text{
+        @apply
+        max-w-[320px]
+        font-semibold
+        italic;
+
+        @apply
+        md:text-lg;
+    }
+
+}
+
+.member-card__image{
+    @apply
+    ml-5
+    rounded-full;
+}
+
+.member-card__head{
+
+    > .name{
+        @apply
+        font-title
+        font-bold
+        text-2xl
+        text-primary;
+
+        @apply
+        md:text-3xl;
+    }
+}

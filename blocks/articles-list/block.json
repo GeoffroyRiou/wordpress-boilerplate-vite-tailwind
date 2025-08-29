@@ -1,0 +1,12 @@
+{
+ 	"name": "ejn/articles-list",
+	"title": "[BP] Liste des articles",
+	"description": "Bloc de liste d'articles avec filtres",
+    "category": "EJN",
+	"keywords": ["ejn", "article"],
+	"icon": "list-view",
+	"acf": {
+    	"mode": "preview",
+    	"renderTemplate": "template.php"
+	}
+}

@@ -1,0 +1,1645 @@
+[
+    {
+        "key": "group_68ac5f74d4018",
+        "title": "Bloc actualités à la une",
+        "fields": [
+            {
+                "key": "field_68ac5fae3c04b",
+                "label": "Actualités",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0,
+                "selected": 0
+            },
+            {
+                "key": "field_68ac5f753c048",
+                "label": "Titre",
+                "name": "titre",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_68ac5f883c049",
+                "label": "Texte",
+                "name": "texte",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "rows": "",
+                "placeholder": "",
+                "new_lines": ""
+            },
+            {
+                "key": "field_68ac5f973c04a",
+                "label": "Bouton",
+                "name": "bouton",
+                "aria-label": "",
+                "type": "link",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "allow_in_bindings": 0
+            },
+            {
+                "key": "field_68ac5fbb3c04c",
+                "label": "Citation",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0,
+                "selected": 0
+            },
+            {
+                "key": "field_68ac5fce3c04d",
+                "label": "Illustration",
+                "name": "illustration",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "id",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": 800,
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "allow_in_bindings": 0,
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_68ac5fe63c04e",
+                "label": "Texte de la citation",
+                "name": "texte_citation",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "ejn\/last-news"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_68b0043466a43",
+        "title": "Bloc élément clé",
+        "fields": [
+            {
+                "key": "field_68b00435e31f7",
+                "label": "Chiffre",
+                "name": "chiffre",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_68b0044ce31f8",
+                "label": "Texte",
+                "name": "texte",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_68b00455e31f9",
+                "label": "Picto",
+                "name": "picto",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "id",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": 200,
+                "max_height": 200,
+                "max_size": "",
+                "mime_types": "",
+                "allow_in_bindings": 0,
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_68b00494bff38",
+                "label": "Fond rose",
+                "name": "fond_primaire",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "allow_in_bindings": 0,
+                "ui": 0,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "ejn\/key-element"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_68b020a9b88a4",
+        "title": "Bloc formulaire",
+        "fields": [
+            {
+                "key": "field_68b020ab670d6",
+                "label": "Titre",
+                "name": "titre",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_68b020b4670d7",
+                "label": "Formulaire",
+                "name": "form",
+                "aria-label": "",
+                "type": "post_object",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "wpcf7_contact_form"
+                ],
+                "post_status": [
+                    "publish"
+                ],
+                "taxonomy": "",
+                "return_format": "id",
+                "multiple": 0,
+                "allow_null": 0,
+                "allow_in_bindings": 0,
+                "bidirectional": 0,
+                "ui": 1,
+                "bidirectional_target": []
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "ejn\/form"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_68a82eec80e50",
+        "title": "Bloc Hero",
+        "fields": [
+            {
+                "key": "field_68a82eec05e90",
+                "label": "Texte",
+                "name": "texte",
+                "aria-label": "",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "allow_in_bindings": 0,
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            },
+            {
+                "key": "field_68a82f1005e91",
+                "label": "Image",
+                "name": "image",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "id",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "allow_in_bindings": 0,
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_68a82f1805e92",
+                "label": "Lien",
+                "name": "lien",
+                "aria-label": "",
+                "type": "link",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "allow_in_bindings": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "ejn\/hero"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_68aed539602f2",
+        "title": "Bloc image pleine largeur",
+        "fields": [
+            {
+                "key": "field_68aed53a5dc86",
+                "label": "Image",
+                "name": "image",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "id",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "allow_in_bindings": 0,
+                "preview_size": "medium"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "ejn\/full-width-image"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_68ad825ed63e6",
+        "title": "Bloc liste d'actualités",
+        "fields": [
+            {
+                "key": "field_68ad825f82c03",
+                "label": "Nombre d'éléments par page",
+                "name": "per_page",
+                "aria-label": "",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 9,
+                "min": "",
+                "max": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "step": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_68aebd634ab90",
+                "label": "Cacher les filtres",
+                "name": "cacher_filtres",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "allow_in_bindings": 0,
+                "ui": 0,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            },
+            {
+                "key": "field_68aebd814ab91",
+                "label": "Cacher la pagination",
+                "name": "cacher_pagination",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "allow_in_bindings": 0,
+                "ui": 0,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            },
+            {
+                "key": "field_68aec360d221a",
+                "label": "Mode simple",
+                "name": "mode_simple",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Si cette case est cochée, la largeur du conteneur sera réduite ainsi que ses marges. A utiliser sur les pages à contenu éditorial.",
+                "default_value": 0,
+                "allow_in_bindings": 0,
+                "ui": 0,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "ejn\/articles-list"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_68adacd7134a7",
+        "title": "Bloc Membres de l'équipe",
+        "fields": [
+            {
+                "key": "field_68adafe584e5b",
+                "label": "Sections",
+                "name": "sections",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "table",
+                "pagination": 0,
+                "min": 0,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Ajouter un élément",
+                "rows_per_page": 20,
+                "sub_fields": [
+                    {
+                        "key": "field_68adafff84e5d",
+                        "label": "Texte",
+                        "name": "texte",
+                        "aria-label": "",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "allow_in_bindings": 0,
+                        "tabs": "all",
+                        "toolbar": "full",
+                        "media_upload": 1,
+                        "delay": 0,
+                        "parent_repeater": "field_68adafe584e5b"
+                    },
+                    {
+                        "key": "field_68adacd839965",
+                        "label": "Membres",
+                        "name": "membres",
+                        "aria-label": "",
+                        "type": "relationship",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "membre-equipe"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": "",
+                        "filters": [
+                            "search",
+                            "taxonomy"
+                        ],
+                        "return_format": "object",
+                        "min": 1,
+                        "max": "",
+                        "allow_in_bindings": 0,
+                        "elements": "",
+                        "bidirectional": 0,
+                        "bidirectional_target": [],
+                        "parent_repeater": "field_68adafe584e5b"
+                    }
+                ]
+            },
+            {
+                "key": "field_68aecda07cd51",
+                "label": "Mode simple",
+                "name": "mode_simple",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Si cette case est cochée, la largeur du conteneur sera réduite et les marges également. A utiliser sur les pages à contenu éditorial.",
+                "default_value": 0,
+                "allow_in_bindings": 0,
+                "ui": 0,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "ejn\/team-block"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_68a8401035bfc",
+        "title": "Bloc pages croisées",
+        "fields": [
+            {
+                "key": "field_68a8401040db8",
+                "label": "Blocs",
+                "name": "blocs",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "table",
+                "pagination": 0,
+                "min": 0,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Ajouter un élément",
+                "rows_per_page": 20,
+                "sub_fields": [
+                    {
+                        "key": "field_68a8403040db9",
+                        "label": "Type",
+                        "name": "type",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "allow_in_bindings": 0,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_68a8401040db8"
+                    },
+                    {
+                        "key": "field_68a8403a40dba",
+                        "label": "Titre",
+                        "name": "titre",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "allow_in_bindings": 0,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_68a8401040db8"
+                    },
+                    {
+                        "key": "field_68a8404040dbb",
+                        "label": "Lien",
+                        "name": "lien",
+                        "aria-label": "",
+                        "type": "link",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "allow_in_bindings": 0,
+                        "parent_repeater": "field_68a8401040db8"
+                    },
+                    {
+                        "key": "field_68a8404e40dbc",
+                        "label": "Illustration",
+                        "name": "illustration",
+                        "aria-label": "",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "id",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": "",
+                        "allow_in_bindings": 0,
+                        "preview_size": "medium",
+                        "parent_repeater": "field_68a8401040db8"
+                    },
+                    {
+                        "key": "field_68a84382ca901",
+                        "label": "Fond",
+                        "name": "fond",
+                        "aria-label": "",
+                        "type": "radio",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "secondary": "Gris",
+                            "primary": "Rose"
+                        },
+                        "default_value": "primary",
+                        "return_format": "value",
+                        "allow_null": 0,
+                        "other_choice": 0,
+                        "allow_in_bindings": 0,
+                        "layout": "vertical",
+                        "save_other_choice": 0,
+                        "parent_repeater": "field_68a8401040db8"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "ejn\/cross-pages"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_68ac7aec9737e",
+        "title": "Bloc partenaires",
+        "fields": [
+            {
+                "key": "field_68ac7aedd1e0d",
+                "label": "Titre",
+                "name": "titre",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_68ac7af8d1e0e",
+                "label": "Logos",
+                "name": "logos",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "table",
+                "pagination": 0,
+                "min": 1,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Ajouter un élément",
+                "rows_per_page": 20,
+                "sub_fields": [
+                    {
+                        "key": "field_68ac7b10d1e0f",
+                        "label": "Lien",
+                        "name": "lien",
+                        "aria-label": "",
+                        "type": "url",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "allow_in_bindings": 0,
+                        "placeholder": "",
+                        "parent_repeater": "field_68ac7af8d1e0e"
+                    },
+                    {
+                        "key": "field_68ac7b1ad1e10",
+                        "label": "Logo",
+                        "name": "logo",
+                        "aria-label": "",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "id",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": "",
+                        "allow_in_bindings": 0,
+                        "preview_size": "medium",
+                        "parent_repeater": "field_68ac7af8d1e0e"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "ejn\/partners"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_68aef7050b124",
+        "title": "Bloc témoignage",
+        "fields": [
+            {
+                "key": "field_68aef76d288c2",
+                "label": "Nom",
+                "name": "nom",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_68aef70514c32",
+                "label": "Fonction",
+                "name": "fonction",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_68aef70514c7f",
+                "label": "Texte",
+                "name": "texte",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "rows": "",
+                "placeholder": "",
+                "new_lines": ""
+            },
+            {
+                "key": "field_68aef794c4a31",
+                "label": "Image",
+                "name": "image",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "id",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "allow_in_bindings": 0,
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_68aefc036ebab",
+                "label": "Conteneur peu large",
+                "name": "petit_conteneur",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Si cette case est cochée, la largeur du conteneur sera réduite. A utiliser sur les pages à contenu éditorial.",
+                "default_value": 0,
+                "allow_in_bindings": 0,
+                "ui": 0,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "ejn\/testimony"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_68a738552a873",
+        "title": "Configuration du site",
+        "fields": [
+            {
+                "key": "field_68a81c227ed63",
+                "label": "Global",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0,
+                "selected": 0
+            },
+            {
+                "key": "field_68a81c377ed64",
+                "label": "Logo du site",
+                "name": "logo_site",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "svg",
+                "allow_in_bindings": 0,
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_68a7385558d87",
+                "label": "Réseaux",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0,
+                "selected": 0
+            },
+            {
+                "key": "field_68a7386f58d88",
+                "label": "Facebook",
+                "name": "facebook",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "allow_in_bindings": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_68a7388658d8a",
+                "label": "Instagram",
+                "name": "instagram",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "allow_in_bindings": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_68a7389158d8b",
+                "label": "Linkedin",
+                "name": "linkedin",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "allow_in_bindings": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_68a7389a58d8c",
+                "label": "Tik Tok",
+                "name": "tik_tok",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "allow_in_bindings": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_68a73912d2009",
+                "label": "Informations de contact",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0,
+                "selected": 0
+            },
+            {
+                "key": "field_68a73922d200a",
+                "label": "Adresse",
+                "name": "adresse",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "rows": "",
+                "placeholder": "",
+                "new_lines": ""
+            },
+            {
+                "key": "field_68a73928d200b",
+                "label": "Téléphone",
+                "name": "telephone",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_68a739ad0b5d5",
+                "label": "Eléments clés du site",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0,
+                "selected": 0
+            },
+            {
+                "key": "field_68a739dd0b5d7",
+                "label": "Contact",
+                "name": "contact",
+                "aria-label": "",
+                "type": "link",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "allow_in_bindings": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "configuration-du-site"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_68adaab00f759",
+        "title": "Membre de l'équipe",
+        "fields": [
+            {
+                "key": "field_68adaad4b885c",
+                "label": "Fonction",
+                "name": "fonction",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_68adaae8b885d",
+                "label": "Description",
+                "name": "description",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "rows": "",
+                "placeholder": "",
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "membre-equipe"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "taxonomy_68adaa75c6cec",
+        "title": "Types de membres",
+        "menu_order": 0,
+        "active": true,
+        "taxonomy": "type-membre",
+        "object_type": [
+            "membre-equipe"
+        ],
+        "advanced_configuration": 0,
+        "import_source": "",
+        "import_date": "",
+        "labels": {
+            "name": "Types de membres",
+            "singular_name": "Type de membre",
+            "menu_name": "Types de membres",
+            "all_items": "Tous les Types de membres",
+            "edit_item": "Modifier Type de membre",
+            "view_item": "Voir Type de membre",
+            "update_item": "Mettre à jour Type de membre",
+            "add_new_item": "Ajouter Type de membre",
+            "new_item_name": "Nom du nouveau Type de membre",
+            "search_items": "Rechercher Types de membres",
+            "popular_items": "Types de membres populaire",
+            "separate_items_with_commas": "Séparer les types de membres avec une virgule",
+            "add_or_remove_items": "Ajouter ou retirer types de membres",
+            "choose_from_most_used": "Choisir parmi les types de membres les plus utilisés",
+            "most_used": "",
+            "not_found": "Aucun types de membres trouvé",
+            "no_terms": "Aucun types de membres",
+            "name_field_description": "",
+            "slug_field_description": "",
+            "desc_field_description": "",
+            "items_list_navigation": "Navigation dans la liste Types de membres",
+            "items_list": "Liste Types de membres",
+            "back_to_items": "← Aller à « types de membres »",
+            "item_link": "Lien Type de membre",
+            "item_link_description": "Un lien vers un type de membre"
+        },
+        "description": "",
+        "capabilities": {
+            "manage_terms": "manage_categories",
+            "edit_terms": "manage_categories",
+            "delete_terms": "manage_categories",
+            "assign_terms": "edit_posts"
+        },
+        "public": 1,
+        "publicly_queryable": 1,
+        "hierarchical": 0,
+        "show_ui": 1,
+        "show_in_menu": 1,
+        "show_in_nav_menus": 1,
+        "show_in_rest": 1,
+        "rest_base": "",
+        "rest_namespace": "wp\/v2",
+        "rest_controller_class": "WP_REST_Terms_Controller",
+        "show_tagcloud": 1,
+        "show_in_quick_edit": 1,
+        "show_admin_column": 0,
+        "rewrite": {
+            "permalink_rewrite": "taxonomy_key",
+            "with_front": "1",
+            "rewrite_hierarchical": "0"
+        },
+        "query_var": "post_type_key",
+        "query_var_name": "",
+        "default_term": {
+            "default_term_enabled": "0"
+        },
+        "sort": 0,
+        "meta_box": "default",
+        "meta_box_cb": "",
+        "meta_box_sanitize_cb": ""
+    },
+    {
+        "key": "post_type_68adaa00d32f8",
+        "title": "Membres de l'équipe",
+        "menu_order": 0,
+        "active": true,
+        "post_type": "membre-equipe",
+        "advanced_configuration": true,
+        "import_source": "",
+        "import_date": "",
+        "labels": {
+            "name": "Membres de l'équipe",
+            "singular_name": "Membre de l'équipe",
+            "menu_name": "Membres de l'équipe",
+            "all_items": "Tous les Membres de l'équipe",
+            "edit_item": "Modifier Membre de l'équipe",
+            "view_item": "Voir Membre de l'équipe",
+            "view_items": "Voir Membres de l'équipe",
+            "add_new_item": "Ajouter Membre de l'équipe",
+            "add_new": "Ajouter Membre de l'équipe",
+            "new_item": "Nouveau Membre de l'équipe",
+            "parent_item_colon": "Membre de l'équipe parent :",
+            "search_items": "Rechercher Membres de l'équipe",
+            "not_found": "Aucun membres de l'équipe trouvé",
+            "not_found_in_trash": "Aucun membres de l'équipe trouvé dans la corbeille",
+            "archives": "Archives des Membre de l'équipe",
+            "attributes": "Attributs des Membre de l'équipe",
+            "featured_image": "",
+            "set_featured_image": "",
+            "remove_featured_image": "",
+            "use_featured_image": "",
+            "insert_into_item": "Insérer dans membre de l'équipe",
+            "uploaded_to_this_item": "Téléversé sur ce membre de l'équipe",
+            "filter_items_list": "Filtrer la liste membres de l'équipe",
+            "filter_by_date": "Filtrer membres de l'équipe par date",
+            "items_list_navigation": "Navigation dans la liste Membres de l'équipe",
+            "items_list": "Liste Membres de l'équipe",
+            "item_published": "Membre de l'équipe publié.",
+            "item_published_privately": "Membre de l'équipe publié en privé.",
+            "item_reverted_to_draft": "Membre de l'équipe repassé en brouillon.",
+            "item_scheduled": "Membre de l'équipe planifié.",
+            "item_updated": "Membre de l'équipe mis à jour.",
+            "item_link": "Lien Membre de l'équipe",
+            "item_link_description": "Un lien vers un membre de l'équipe."
+        },
+        "description": "",
+        "public": true,
+        "hierarchical": false,
+        "exclude_from_search": false,
+        "publicly_queryable": true,
+        "show_ui": true,
+        "show_in_menu": true,
+        "admin_menu_parent": "",
+        "show_in_admin_bar": true,
+        "show_in_nav_menus": true,
+        "show_in_rest": true,
+        "rest_base": "",
+        "rest_namespace": "wp\/v2",
+        "rest_controller_class": "WP_REST_Posts_Controller",
+        "menu_position": "",
+        "menu_icon": {
+            "type": "dashicons",
+            "value": "dashicons-groups"
+        },
+        "rename_capabilities": false,
+        "singular_capability_name": "post",
+        "plural_capability_name": "posts",
+        "supports": [
+            "title",
+            "thumbnail"
+        ],
+        "taxonomies": "",
+        "has_archive": false,
+        "has_archive_slug": "",
+        "rewrite": {
+            "permalink_rewrite": "post_type_key",
+            "with_front": "1",
+            "feeds": "0",
+            "pages": "1"
+        },
+        "query_var": "post_type_key",
+        "query_var_name": "",
+        "can_export": true,
+        "delete_with_user": false,
+        "register_meta_box_cb": "",
+        "enter_title_here": ""
+    },
+    {
+        "key": "ui_options_page_68a7383937bb9",
+        "title": "Configuration",
+        "active": true,
+        "menu_order": 0,
+        "page_title": "Configuration",
+        "menu_slug": "configuration-du-site",
+        "parent_slug": "none",
+        "advanced_configuration": 0,
+        "icon_url": "",
+        "menu_title": "",
+        "position": "",
+        "redirect": 0,
+        "description": "",
+        "menu_icon": {
+            "type": "dashicons",
+            "value": "dashicons-admin-generic"
+        },
+        "update_button": "Mise à jour",
+        "updated_message": "Options mises à jour",
+        "capability": "edit_posts",
+        "data_storage": "options",
+        "post_id": "",
+        "autoload": 0
+    }
+]

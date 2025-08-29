@@ -1,0 +1,12 @@
+{
+ 	"name": "ejn/last-news",
+	"title": "[BP] Actualités à la une",
+	"description": "Bloc des actualités à la une",
+    "category": "EJN",
+	"keywords": ["ejn", "actualités"],
+	"icon": "editor-quote",
+	"acf": {
+    	"mode": "preview",
+    	"renderTemplate": "template.php"
+	}
+}

@@ -1,0 +1,12 @@
+{
+ 	"name": "ejn/full-width-image",
+	"title": "[BP] Image pleine largeur",
+	"description": "Bloc d'image pleine largeur",
+    "category": "EJN",
+	"keywords": ["ejn", "image"],
+	"icon": "format-image",
+	"acf": {
+    	"mode": "preview",
+    	"renderTemplate": "template.php"
+	}
+}

@@ -1,0 +1,42 @@
+@theme{
+    --color-primary: #21DE92;
+    --color-secondary: #333;
+
+    --font-text: "Inter", sans-serif; 
+    --font-title: "Inter", sans-serif;
+
+    --breakpoint-xs: 30rem;
+}
+
+:root {
+    --header-height-mobile: 80px;
+    --header-height-desktop: 120px;
+}
+
+::-webkit-scrollbar {
+    @apply 
+    w-2
+    h-2;
+}
+
+::-webkit-scrollbar-track {
+    @apply 
+    bg-secondary/10;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply 
+    bg-primary
+    rounded;
+}
+
+::selection {
+    @apply 
+    bg-primary
+    text-white;
+}
+
+:root{
+    --xs-news-max-w: calc(1/2 * 100% - var(--spacing) * 2.5);
+    --md-news-max-w: calc(1/3 * 100% - var(--spacing) * 5);
+}

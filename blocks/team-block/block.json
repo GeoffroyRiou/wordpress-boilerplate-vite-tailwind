@@ -1,0 +1,12 @@
+{
+ 	"name": "ejn/team-block",
+	"title": "[BP] Liste des membres de l'équipe",
+	"description": "Bloc de liste des membres de l'équipe",
+    "category": "EJN",
+	"keywords": ["ejn", "membres", "équipe", "team"],
+	"icon": "list-view",
+	"acf": {
+    	"mode": "preview",
+    	"renderTemplate": "template.php"
+	}
+}

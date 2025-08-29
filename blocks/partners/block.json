@@ -1,0 +1,12 @@
+{
+ 	"name": "ejn/partners",
+	"title": "[BP] Partenaires",
+	"description": "Bloc Partenaires avec logos multiples",
+    "category": "EJN",   
+	"keywords": ["ejn", "partenaires"],
+	"icon": "businesswoman",
+	"acf": {
+    	"mode": "preview",
+    	"renderTemplate": "template.php"
+	}
+}

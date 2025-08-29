@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schemas.wp.org/wp/6.2/theme.json",
+    "version": 2,
+    "customTemplates": [],
+    "settings": {
+        "typography": {
+            "dropCap": false,
+            "fontFamilies": [
+                {
+                    "fontFamily": "Inter, sans-serif",
+                    "name": "Inter",
+                    "slug": "Inter",
+                    "fontFace": [
+                      {
+                        "fontFamily": "Inter",
+                        "fontStyle": "auto",
+                        "fontWeight": "100 900",
+                        "src": [
+                          "file:./resources/fonts/Inter.woff2"
+                        ]
+                      }
+                    ]
+                  }
+            ]
+        }
+    },
+    "styles": {
+        "typography": {
+            "fontFamily": "sans-serif"
+        },
+        "spacing" : {
+            "margin": {
+                "top": "0",
+                "right": "20px",
+                "bottom": "0",
+                "left": "20px"
+            }
+        }
+    }
+}

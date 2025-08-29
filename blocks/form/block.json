@@ -1,0 +1,12 @@
+{
+ 	"name": "ejn/form",
+	"title": "[BP] Formulaire",
+	"description": "Bloc de formulaire",
+    "category": "EJN",
+	"keywords": ["ejn", "form"],
+	"icon": "welcome-widgets-menus",
+	"acf": {
+    	"mode": "preview",
+    	"renderTemplate": "template.php"
+	}
+}

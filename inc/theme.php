@@ -12,7 +12,7 @@ add_theme_support('title-tag');
 add_theme_support('post-thumbnails');
 
 // Image sizes
-//add_image_size('logo', 250, 250, true);
+add_image_size('member-card', 150, 150, true);
 
 // Cleaning
 add_action('after_setup_theme', function () {

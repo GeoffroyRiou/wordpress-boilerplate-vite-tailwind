@@ -1,9 +1,7 @@
 <?php
 $titre = get_field('titre');
 $texte = get_field('texte');
-$illustration = get_field('illustration');
 $bouton = get_field('bouton');
-$texteCitation = get_field('texte_citation');
 
 // Get last 4 news
 $lastNews = get_posts([
@@ -47,19 +45,6 @@ $lastNews = get_posts([
                 </div>
             <?php endif; ?>
         </div>
-
-        <img src="<?= imgUrl('pattern.svg') ?>" alt="" class="block-last-news__pattern">
-    </div>
-
-    <div class="block-last-news__quote g-container">
-        <p class="block-last-news__quote__text">
-            <span class="content"><?= $texteCitation ?></span>
-        </p>
-        <?php if (!empty($illustration)): ?>
-            <img loading="lazy" src="<?= wp_get_attachment_image_url($illustration, 'large') ?>" alt="" class="illustration" />
-        <?php endif; ?>
-
-        <img loading="lazy" src="<?= imgUrl('stamp-black.svg') ?>" alt="" class="block-last-news__quote__stamp">
     </div>
 
 </section>

@@ -243,32 +243,6 @@
         @apply
         lg:text-6xl;
     }
-
-    > .pattern1,
-    > .pattern2{
-        @apply
-        w-6/12
-        max-w-[540px]
-        absolute;
-
-        @apply
-        lg:w-5/12;
-
-        @apply
-        2xl:w-5/12;
-    }
-
-    > .pattern1{
-        @apply
-        bottom-0
-        left-0;
-    }
-
-    > .pattern2{
-        @apply
-        top-0
-        right-0;
-    }
 }
 
 /**

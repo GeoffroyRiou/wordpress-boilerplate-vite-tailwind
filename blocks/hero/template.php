@@ -23,7 +23,5 @@ $lien = get_field('lien');
         <div class="illustration">
             <?= wp_get_attachment_image($image, 'full'); ?>
         </div>
-
-        <img src="<?= imgUrl('stamp.svg') ?>" alt="" class="block-hero__stamp">
     </div>
 </section>

@@ -7,26 +7,30 @@ $modeSimple = get_field('mode_simple') ?? false;
             ]) ?>>
     <div class="content g-container <?= $modeSimple ? 'is-small' : '' ?>">
 
-        <?php foreach ($sections as $section): ?>
-            <?php
-            $texte = $section['texte'] ?? null;
-            $membres = $section['membres'] ?? [];
-            ?>
+        <?php if (!empty($sections)): ?>
+            <?php foreach ($sections as $section): ?>
+                <?php
+                $texte = $section['texte'] ?? null;
+                $membres = $section['membres'] ?? [];
+                ?>
 
-            <?php if (!empty($texte)): ?>
-                <div class="cms-content">
-                    <?= $texte ?>
+                <?php if (!empty($texte)): ?>
+                    <div class="cms-content">
+                        <?= $texte ?>
+                    </div>
+                <?php endif; ?>
+
+                <div class="block-team__members <?= $modeSimple ? 'is-simple' : '' ?>">
+                    <?php if (!empty($membres)): ?>
+                        <?php foreach ($membres as $membre): ?>
+                            <?= get_template_part('components/member-card', null,  [
+                                'member' => $membre
+                            ]) ?>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
                 </div>
-            <?php endif; ?>
-
-            <div class="block-team__members <?= $modeSimple ? 'is-simple' : '' ?>">
-                <?php foreach ($membres as $membre): ?>
-                    <?= get_template_part('components/member-card', null,  [
-                        'member' => $membre
-                    ]) ?>
-                <?php endforeach; ?>
-            </div>
-        <?php endforeach; ?>
+            <?php endforeach; ?>
+        <?php endif; ?>
 
     </div>
 </section>

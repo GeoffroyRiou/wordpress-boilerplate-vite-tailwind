@@ -12,7 +12,7 @@
     text-white
     font-title
     uppercase
-    text-xl
+    text-lg
     transition-colors
     tracking-wider
     no-underline!;
@@ -34,7 +34,7 @@
     &.is-bigger{
         @apply
         md:tracking-normal
-        md:text-4xl;
+        md:text-3xl;
     }
 
     &.is-line,
